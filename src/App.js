@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <Router>
         <Homepage path="/" />
-        <Students path="/students" />
-        <Students path="/students/block/:block_name" />
+        <Students path="/students/*" />
+        <Students path="/students/block/:currentBlock" />
       </Router>
     </div>
   );
